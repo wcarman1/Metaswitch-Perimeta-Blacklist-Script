@@ -30,9 +30,9 @@ It creates a text file with the commands needed to add all the IP addresses that
 4. run ./banlist.sh
 5. You will be prompted as follows:
 
-        "Filename of the list of IPs (include file extention)?   *enter the full file name of the known bad IP file you created*
+        "Filename of the list of IPs (include file extension)?   *enter the full file name of the known bad IP file you created*
     
-        input.csv <input your filename and extention>
+        input.csv <input your filename and extension>
 
         Copy the output of the Perimeta command 'show config include ban-peer' into the text editor that follows.
         If you do not have any ban-peer entries just save and close. EXCLUDE BAN-PEER RANGE AND ONLY ONE SERVICE NETWORK AT A TIME!!
