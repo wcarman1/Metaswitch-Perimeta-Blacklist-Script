@@ -8,7 +8,7 @@
 #I usually gather the SIP-PS and SIP Signalling csv files from https://community.metaswitch.com/support/discussions/topics/76000007169 and then add them together to creat the full list for the perimeta.
 
 
-echo -n "Filename of the list of IPs (include file extention)?"
+echo -n "Filename of the list of IPs (include file extension)?"
 echo
 read -r varips
 echo
