@@ -14,7 +14,6 @@ It creates a text file with the commands needed to add all the IP addresses that
 
 **TIP:** I usually download and merge the Metaswitch provided SIP PS and SIP Signaling lists and run this script on the merged lists. 
 
-**THIS SCRIPT WILL NOT REMOVE IP's IF THEY ARE REMOVED FROM THE LIST. That may be added in the future.**
 
 **#REQUIREMENTS**
 
@@ -74,6 +73,11 @@ It creates a text file with the commands needed to add all the IP addresses that
    example warning:
                
         ! This configuration overlaps with configured banned peer range x.x.x.x to y.y.y.y and is redundant.
+
+9. If you'd like to remove the the IPs that are either no longer in the list or that are in you existing config but not in the supplied list, then copy the 
+contents of remove-ban-peer-2020-12-17.txt and paste it in the Perimeta CLI
+
+10. I like to check my config one more time for overlap warnings. As well as check SIP traffic to make sure you didn't block something you shouldn't have.
     
     
     
